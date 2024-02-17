@@ -2,9 +2,17 @@ body {
   font-family: "Merriweather", serif;
   font-family: "Open Sans", sans-serif;
 }
+.base-text-color {
+  color: #ff0000;
+}
 .header {
   max-width: 1320px;
   margin: 0 auto;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 120px;
 }
 .banner {
   margin-top: 50px;
@@ -25,15 +33,187 @@ body {
   margin-bottom: 18px;
 }
 .banner-title {
+  font-family: Merriweather;
   color: #fff;
   margin-top: 0;
   font-size: 72px;
 }
-.discount{
-    max-width: 800px;
+.discount {
+  max-width: 800px;
+  margin: 120px auto;
+  text-align: center;
 }
-.discount-title{
-    color: #FF0000;
-    font-size: 88px;
-    font-weight: 700;
+.discount-title {
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.discount-subtitle {
+  font-size: 24px;
+  margin-top: 48px;
+}
+.discount-content {
+  color: #070211;
+  font-size: 48px;
+  font-style: bold;
+  margin-top: 16px;
+}
+.midnight {
+  background-image: url(../assets/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #fff;
+}
+.midnight-content {
+  display: flex;
+  /* background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)); */
+  background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+  padding: 125px 0 10px 126px;
+  border-radius: 20px;
+}
+.midnight-2024 {
+  width: 320px;
+  margin-left: 40px;
+}
+.midnight-title {
+  font-family: Merriweather;
+  font-size: 64px;
+}
+.midnight-sub {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.btn-join {
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+.recent-event {
+  text-align: center;
+  height: 482px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.2),
+    rgba(255, 0, 0, 0)
+  );
+}
+.recent-event-content {
+  padding-top: 110px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.btn-recent-join {
+  padding: 16px 32px;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.future-event {
+  display: flex;
+  align-items: center;
+}
+.coming-soon-sub {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.coming-soon-title {
+  font-size: 48px;
+  margin-bottom: 22px;
+}
+.coming-soon-desc {
+  font-size: 20px;
+  color: #070211;
+}
+.coming-soon-img {
+  width: 365px;
+  height: 365px;
+  border: #ff0000 15px solid;
+  margin: 0 70px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.new-year-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.new-year-desc {
+  font-size: 20px;
+  color: #070211;
+}
+.new-year-img {
+  width: 140px;
+}
+.holiday-content {
+  text-align: center;
+  color: #070211;
+}
+.holiday-sub {
+  font-size: 24px;
+  font-weight: 400;
+}
+.holiday-title {
+  font-family: Merriweather;
+  font-size: 72px;
+  margin: 16px 0 24px 0;
+}
+.holiday-desc {
+  font-size: 20px;
+  margin-bottom: 64px;
+}
+/* .holiday-images {
+  display: flex;
+}
+.holiday-img-left {
+  width: 375px;
+  height: 375px;
+  z-index: 2;
+}
+.holiday-img-middle {
+  z-index: 2;
+}
+.holiday-img-right {
+  z-index: -1;
+}
+.holiday-img-bottom {
+  z-index: 1;
+} */
+
+.portfolio-sub {
+  font-size: 24px;
+}
+.portfolio-title {
+  font-family: merriweather;
+  font-size: 48px;
+  color: #000;
+  margin: 16px 0 24px 0;
+}
+.portfolio-desc {
+  font-size: 20px;
+  color: #070211;
+  max-width: 896px;
+}
+.top-row,
+.bottom-row {
+  display: flex;
+}
+.card-item {
+  border-radius: 15px;
+  margin: 0 24px 24px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card-item :hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-item img{
+    width: 100%;
+    height: 100%;
 }
