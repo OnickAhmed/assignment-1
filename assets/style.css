@@ -95,6 +95,7 @@ body {
 .recent-event {
   text-align: center;
   height: 482px;
+  border-radius: 20px;
   background: linear-gradient(
     to bottom,
     rgba(255, 0, 0, 0.2),
