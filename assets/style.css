@@ -5,6 +5,9 @@ body {
 .base-text-color {
   color: #ff0000;
 }
+
+/* HEADER */
+
 .header {
   max-width: 1320px;
   margin: 0 auto;
@@ -38,6 +41,9 @@ body {
   margin-top: 0;
   font-size: 72px;
 }
+
+/* DISCOUNT */
+
 .discount {
   max-width: 800px;
   margin: 120px auto;
@@ -58,6 +64,9 @@ body {
   font-style: bold;
   margin-top: 16px;
 }
+
+/* MIDNIGHT */
+
 .midnight {
   background-image: url(../assets/images/Vectorrr.png);
   background-repeat: no-repeat;
@@ -92,6 +101,9 @@ body {
   background-color: transparent;
   border: none;
 }
+
+/* Recent */
+
 .recent-event {
   text-align: center;
   height: 482px;
@@ -116,6 +128,9 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+
+/* FUTURE */
+
 .future-event {
   display: flex;
   align-items: center;
@@ -152,6 +167,9 @@ body {
 .new-year-img {
   width: 140px;
 }
+
+/* HOLIDAY */
+
 .holiday-content {
   text-align: center;
   color: #070211;
@@ -191,6 +209,8 @@ body {
   z-index: 1;
 } */
 
+/* PORTFOLIO */
+
 .portfolio-sub {
   font-size: 24px;
 }
@@ -224,6 +244,7 @@ body {
 }
 
 /* Newsletter */
+
 .newsletter{
     text-align: center;
     height: 615px;
@@ -249,21 +270,23 @@ body {
     font-size: 18px;
     color: #070211;
     margin-right: 0;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 30px 0px 0px 30px;
     border: none;
+    min-width: 400px;
 }
 .newsletter-btn-sub{
     padding: 20px;
     font-size: 18px;
     color: #070211;
     margin-left: -5px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 30px 30px 0px;
     border: none;
     color: #fff;
     background-color: #ff0000;
 }
 
 /* Footer */
+
 footer{
     color: white;
     font-size: 24px;
